@@ -1,0 +1,33 @@
+
+.wrap tr th{
+    color: rgb(255, 255, 255);
+}
+.wrap tbody tr{
+            background-color: #f8f9fa;
+        }
+.wrap thead tr {
+            background-color: #668cb3;
+            color: #bea1a1;
+            text-align: left;
+            font-weight: bold;
+        }
+.wrap {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 1.1rem;
+            min-width: 400px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+            background-color: #fff;
+            margin: 0 auto;
+        }
+        .wrap th,
+        .wrap td {
+            padding: 16px 30px;
+            border: 4px solid #ddd;
+        }
+main{
+    padding: 85px 0 70px 0;
+    width: 100%;
+    box-sizing: border-box;
+}

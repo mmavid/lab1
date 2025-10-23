@@ -1,0 +1,98 @@
+
+/* карта */
+
+.content{
+    text-align: center;
+}
+.content p{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 540;
+}
+
+.content img{   
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(255, 252, 247);
+    box-shadow: 5px 5px 10px black;
+    pointer-events: none; 
+    margin-bottom: 20px;
+}
+
+.user-card{
+    margin-top: 20px;
+
+}
+
+/* диаграмма */
+
+.diagram_html{
+    float: left;
+    position: relative;
+    border: solid black;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+
+}
+
+.diagram_html::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgb(117, 211, 63);
+    width: 320px;
+    height: 94px;
+}
+
+.diagram_html h4{
+    position: relative;
+    z-index: 101;
+    text-align: center;
+    top: 40px;
+}
+
+.diagram_css h4{
+    position: relative;
+    z-index: 101;
+    width: 220px;
+    top: 40px;
+}
+
+.diagram_css{
+    float: left;
+    position: relative;
+    border: solid black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.diagram_css::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(197, 233, 36) ;
+    width: 175px;
+    height: 94px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    width: 100%;
+    margin: 0 auto; 
+    margin-top: 30px;
+    
+}
+
